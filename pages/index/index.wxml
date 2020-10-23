@@ -1,1 +1,15 @@
-<view class="iconfont icongouwuche2">首页</view>
+<!-- 搜索框开始 -->
+<SearchInput></SearchInput>
+<!-- 搜索框结束 -->
+
+<!-- 轮播开始 -->
+<view class="index_lunbolist">
+    <swiper autoplay="true" interval="3000" indicator-dots="true" circular="true">
+        <swiper-item wx:for="{{lunbolist}}" wx:key="goods_id">
+            <navigator >
+                <image mode="widthFix" src="{{item.image_src}}" />
+            </navigator>
+        </swiper-item>
+    </swiper>
+</view>
+<!-- 轮播结束 -->

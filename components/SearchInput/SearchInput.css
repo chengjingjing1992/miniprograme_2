@@ -5,10 +5,6 @@
   background-color: var(--themeColor);
 }
 .search_input navigator {
-  height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: aliceblue;
-  border-radius: 15rpx;
 }
