@@ -9,3 +9,31 @@ view {
   width: 100%;
   height: 100%;
 }
+.index_cateList {
+  display: flex;
+}
+.index_cateList navigator {
+  flex: 1;
+}
+.index_cateList navigator image {
+  width: 100%;
+}
+.index_floor .index_floorGroup .index_floor_title image {
+  width: 100%;
+}
+.index_floor .index_floorGroup .index_floor_list {
+  overflow: hidden;
+}
+.index_floor .index_floorGroup .index_floor_list navigator {
+  float: left;
+  width: 33%;
+  /* 后4个超链接 */
+}
+.index_floor .index_floorGroup .index_floor_list navigator:nth-last-child(-n+4) {
+  height: 27.72711207vw;
+  border: 1rpx solid white;
+}
+.index_floor .index_floorGroup .index_floor_list navigator image {
+  width: 100%;
+  height: 100%;
+}

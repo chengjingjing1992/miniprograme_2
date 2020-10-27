@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/goods_list/goods_list",
+    "pages/category/category",
     "pages/search/index"
   ],
   "window": {
@@ -19,10 +20,10 @@
       "selectedIconPath": "./icon/home-o.png"
     },
     {
-      "pagePath": "pages/goods_list/goods_list",
-      "text": "商品",
-      "iconPath": "./icon/cart.png",
-      "selectedIconPath": "./icon/cart-o.png"
+      "pagePath": "pages/category/category",
+      "text": "分类",
+      "iconPath": "./icon/category.png",
+      "selectedIconPath": "./icon/category-o.png"
     }
   ]
   },

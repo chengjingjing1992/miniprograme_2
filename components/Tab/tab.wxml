@@ -1,0 +1,19 @@
+<!--componets/Tab/tab.wxml-->
+<view >{{ttname}}</view>
+
+<view class="tabs">
+    <view class="tabs_title">
+        <!-- <view class="title_item active">首页</view>
+        <view class="title_item ">原创</view>
+        <view class="title_item ">分类</view>
+        <view class="title_item ">其他</view> -->
+        <view wx:for="{{tabss}}" 
+        wx:key="id"
+        class="title_item {{item.isActive?'active':''}}"
+        bindtap="clickTab"
+        data-sss="{{item.id}}"
+        >{{item.name}}</view>
+    </view>
+    <view class="title_content"><slot ></slot></view>
+
+</view>
